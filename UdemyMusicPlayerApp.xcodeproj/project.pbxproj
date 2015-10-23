@@ -15,6 +15,9 @@
 		3D04FDAC1BDACAA900E8B44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDAA1BDACAA900E8B44A /* LaunchScreen.storyboard */; };
 		3D04FDB71BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FDB61BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift */; };
 		3D04FDC21BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FDC11BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift */; };
+		3D04FDD11BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD01BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 */; };
+		3D04FDD31BDACD4E00E8B44A /* 04 Long Drive.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD21BDACD4E00E8B44A /* 04 Long Drive.m4a */; };
+		3D04FDD51BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD41BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +39,22 @@
 
 /* Begin PBXFileReference section */
 		3D04FD9B1BDACAA900E8B44A /* UdemyMusicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyMusicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D04FD9E1BDACAA900E8B44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D04FD9E1BDACAA900E8B44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = UdemyMusicPlayerApp/AppDelegate.swift; sourceTree = "<group>"; };
 		3D04FDA01BDACAA900E8B44A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D04FDA31BDACAA900E8B44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D04FDA61BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UdemyMusicPlayerApp.xcdatamodel; sourceTree = "<group>"; };
-		3D04FDA81BDACAA900E8B44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D04FDA81BDACAA900E8B44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = UdemyMusicPlayerApp/Assets.xcassets; sourceTree = "<group>"; };
 		3D04FDAB1BDACAA900E8B44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D04FDAD1BDACAA900E8B44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D04FDAD1BDACAA900E8B44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = UdemyMusicPlayerApp/Info.plist; sourceTree = "<group>"; };
 		3D04FDB21BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyMusicPlayerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D04FDB61BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyMusicPlayerAppTests.swift; sourceTree = "<group>"; };
 		3D04FDB81BDACAAA00E8B44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D04FDBD1BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyMusicPlayerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D04FDC11BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyMusicPlayerAppUITests.swift; sourceTree = "<group>"; };
 		3D04FDC31BDACAAA00E8B44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D04FDD01BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3"; sourceTree = "<group>"; };
+		3D04FDD21BDACD4E00E8B44A /* 04 Long Drive.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "04 Long Drive.m4a"; sourceTree = "<group>"; };
+		3D04FDD41BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "05 Won't Go Home Without You.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 				3D04FDB51BDACAAA00E8B44A /* UdemyMusicPlayerAppTests */,
 				3D04FDC01BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests */,
 				3D04FD9C1BDACAA900E8B44A /* Products */,
+				3D04FDAD1BDACAA900E8B44A /* Info.plist */,
+				3D04FDA81BDACAA900E8B44A /* Assets.xcassets */,
+				3D04FDAA1BDACAA900E8B44A /* LaunchScreen.storyboard */,
+				3D04FD9E1BDACAA900E8B44A /* AppDelegate.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +109,10 @@
 		3D04FD9D1BDACAA900E8B44A /* UdemyMusicPlayerApp */ = {
 			isa = PBXGroup;
 			children = (
-				3D04FD9E1BDACAA900E8B44A /* AppDelegate.swift */,
-				3D04FDA01BDACAA900E8B44A /* ViewController.swift */,
 				3D04FDA21BDACAA900E8B44A /* Main.storyboard */,
-				3D04FDA81BDACAA900E8B44A /* Assets.xcassets */,
-				3D04FDAA1BDACAA900E8B44A /* LaunchScreen.storyboard */,
-				3D04FDAD1BDACAA900E8B44A /* Info.plist */,
+				3D04FDA01BDACAA900E8B44A /* ViewController.swift */,
 				3D04FDA51BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodeld */,
+				3D04FDCF1BDACC7500E8B44A /* Music Files */,
 			);
 			path = UdemyMusicPlayerApp;
 			sourceTree = "<group>";
@@ -126,6 +133,16 @@
 				3D04FDC31BDACAAA00E8B44A /* Info.plist */,
 			);
 			path = UdemyMusicPlayerAppUITests;
+			sourceTree = "<group>";
+		};
+		3D04FDCF1BDACC7500E8B44A /* Music Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D04FDD21BDACD4E00E8B44A /* 04 Long Drive.m4a */,
+				3D04FDD01BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 */,
+				3D04FDD41BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a */,
+			);
+			name = "Music Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D04FDAC1BDACAA900E8B44A /* LaunchScreen.storyboard in Resources */,
+				3D04FDD31BDACD4E00E8B44A /* 04 Long Drive.m4a in Resources */,
+				3D04FDD11BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 in Resources */,
 				3D04FDA91BDACAA900E8B44A /* Assets.xcassets in Resources */,
+				3D04FDD51BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a in Resources */,
 				3D04FDA41BDACAA900E8B44A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +330,7 @@
 				3D04FDAB1BDACAA900E8B44A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = UdemyMusicPlayerApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
