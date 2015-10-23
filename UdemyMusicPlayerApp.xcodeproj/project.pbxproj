@@ -18,6 +18,7 @@
 		3D04FDD11BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD01BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 */; };
 		3D04FDD31BDACD4E00E8B44A /* 04 Long Drive.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD21BDACD4E00E8B44A /* 04 Long Drive.m4a */; };
 		3D04FDD51BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD41BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a */; };
+		3D04FDD71BDAD41100E8B44A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D04FDD61BDAD41100E8B44A /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3D04FDD01BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3"; sourceTree = "<group>"; };
 		3D04FDD21BDACD4E00E8B44A /* 04 Long Drive.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "04 Long Drive.m4a"; sourceTree = "<group>"; };
 		3D04FDD41BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "05 Won't Go Home Without You.m4a"; sourceTree = "<group>"; };
+		3D04FDD61BDAD41100E8B44A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D04FDD71BDAD41100E8B44A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 		3D04FD921BDACAA900E8B44A = {
 			isa = PBXGroup;
 			children = (
+				3D04FDD61BDAD41100E8B44A /* AVFoundation.framework */,
 				3D04FD9D1BDACAA900E8B44A /* UdemyMusicPlayerApp */,
 				3D04FDB51BDACAAA00E8B44A /* UdemyMusicPlayerAppTests */,
 				3D04FDC01BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests */,
