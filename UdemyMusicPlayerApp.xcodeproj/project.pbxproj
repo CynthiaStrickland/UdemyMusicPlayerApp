@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D04FD9F1BDACAA900E8B44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FD9E1BDACAA900E8B44A /* AppDelegate.swift */; };
+		3D04FDA11BDACAA900E8B44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FDA01BDACAA900E8B44A /* ViewController.swift */; };
+		3D04FDA41BDACAA900E8B44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDA21BDACAA900E8B44A /* Main.storyboard */; };
+		3D04FDA71BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FDA51BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodeld */; };
+		3D04FDA91BDACAA900E8B44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDA81BDACAA900E8B44A /* Assets.xcassets */; };
+		3D04FDAC1BDACAA900E8B44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDAA1BDACAA900E8B44A /* LaunchScreen.storyboard */; };
+		3D04FDB71BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FDB61BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift */; };
+		3D04FDC21BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FDC11BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D04FDB31BDACAAA00E8B44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D04FD931BDACAA900E8B44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D04FD9A1BDACAA900E8B44A;
+			remoteInfo = UdemyMusicPlayerApp;
+		};
+		3D04FDBE1BDACAAA00E8B44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D04FD931BDACAA900E8B44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D04FD9A1BDACAA900E8B44A;
+			remoteInfo = UdemyMusicPlayerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D04FD9B1BDACAA900E8B44A /* UdemyMusicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyMusicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D04FD9E1BDACAA900E8B44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D04FDA01BDACAA900E8B44A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D04FDA31BDACAA900E8B44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D04FDA61BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UdemyMusicPlayerApp.xcdatamodel; sourceTree = "<group>"; };
+		3D04FDA81BDACAA900E8B44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D04FDAB1BDACAA900E8B44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D04FDAD1BDACAA900E8B44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D04FDB21BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyMusicPlayerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D04FDB61BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyMusicPlayerAppTests.swift; sourceTree = "<group>"; };
+		3D04FDB81BDACAAA00E8B44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D04FDBD1BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyMusicPlayerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D04FDC11BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyMusicPlayerAppUITests.swift; sourceTree = "<group>"; };
+		3D04FDC31BDACAAA00E8B44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D04FD981BDACAA900E8B44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D04FDAF1BDACAAA00E8B44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D04FDBA1BDACAAA00E8B44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D04FD921BDACAA900E8B44A = {
+			isa = PBXGroup;
+			children = (
+				3D04FD9D1BDACAA900E8B44A /* UdemyMusicPlayerApp */,
+				3D04FDB51BDACAAA00E8B44A /* UdemyMusicPlayerAppTests */,
+				3D04FDC01BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests */,
+				3D04FD9C1BDACAA900E8B44A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D04FD9C1BDACAA900E8B44A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D04FD9B1BDACAA900E8B44A /* UdemyMusicPlayerApp.app */,
+				3D04FDB21BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.xctest */,
+				3D04FDBD1BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D04FD9D1BDACAA900E8B44A /* UdemyMusicPlayerApp */ = {
+			isa = PBXGroup;
+			children = (
+				3D04FD9E1BDACAA900E8B44A /* AppDelegate.swift */,
+				3D04FDA01BDACAA900E8B44A /* ViewController.swift */,
+				3D04FDA21BDACAA900E8B44A /* Main.storyboard */,
+				3D04FDA81BDACAA900E8B44A /* Assets.xcassets */,
+				3D04FDAA1BDACAA900E8B44A /* LaunchScreen.storyboard */,
+				3D04FDAD1BDACAA900E8B44A /* Info.plist */,
+				3D04FDA51BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodeld */,
+			);
+			path = UdemyMusicPlayerApp;
+			sourceTree = "<group>";
+		};
+		3D04FDB51BDACAAA00E8B44A /* UdemyMusicPlayerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D04FDB61BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift */,
+				3D04FDB81BDACAAA00E8B44A /* Info.plist */,
+			);
+			path = UdemyMusicPlayerAppTests;
+			sourceTree = "<group>";
+		};
+		3D04FDC01BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D04FDC11BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift */,
+				3D04FDC31BDACAAA00E8B44A /* Info.plist */,
+			);
+			path = UdemyMusicPlayerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D04FD9A1BDACAA900E8B44A /* UdemyMusicPlayerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D04FDC61BDACAAA00E8B44A /* Build configuration list for PBXNativeTarget "UdemyMusicPlayerApp" */;
+			buildPhases = (
+				3D04FD971BDACAA900E8B44A /* Sources */,
+				3D04FD981BDACAA900E8B44A /* Frameworks */,
+				3D04FD991BDACAA900E8B44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UdemyMusicPlayerApp;
+			productName = UdemyMusicPlayerApp;
+			productReference = 3D04FD9B1BDACAA900E8B44A /* UdemyMusicPlayerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D04FDB11BDACAAA00E8B44A /* UdemyMusicPlayerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D04FDC91BDACAAA00E8B44A /* Build configuration list for PBXNativeTarget "UdemyMusicPlayerAppTests" */;
+			buildPhases = (
+				3D04FDAE1BDACAAA00E8B44A /* Sources */,
+				3D04FDAF1BDACAAA00E8B44A /* Frameworks */,
+				3D04FDB01BDACAAA00E8B44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D04FDB41BDACAAA00E8B44A /* PBXTargetDependency */,
+			);
+			name = UdemyMusicPlayerAppTests;
+			productName = UdemyMusicPlayerAppTests;
+			productReference = 3D04FDB21BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D04FDBC1BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D04FDCC1BDACAAA00E8B44A /* Build configuration list for PBXNativeTarget "UdemyMusicPlayerAppUITests" */;
+			buildPhases = (
+				3D04FDB91BDACAAA00E8B44A /* Sources */,
+				3D04FDBA1BDACAAA00E8B44A /* Frameworks */,
+				3D04FDBB1BDACAAA00E8B44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D04FDBF1BDACAAA00E8B44A /* PBXTargetDependency */,
+			);
+			name = UdemyMusicPlayerAppUITests;
+			productName = UdemyMusicPlayerAppUITests;
+			productReference = 3D04FDBD1BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D04FD931BDACAA900E8B44A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cynthia Whitlatch";
+				TargetAttributes = {
+					3D04FD9A1BDACAA900E8B44A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3D04FDB11BDACAAA00E8B44A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3D04FD9A1BDACAA900E8B44A;
+					};
+					3D04FDBC1BDACAAA00E8B44A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3D04FD9A1BDACAA900E8B44A;
+					};
+				};
+			};
+			buildConfigurationList = 3D04FD961BDACAA900E8B44A /* Build configuration list for PBXProject "UdemyMusicPlayerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D04FD921BDACAA900E8B44A;
+			productRefGroup = 3D04FD9C1BDACAA900E8B44A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D04FD9A1BDACAA900E8B44A /* UdemyMusicPlayerApp */,
+				3D04FDB11BDACAAA00E8B44A /* UdemyMusicPlayerAppTests */,
+				3D04FDBC1BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D04FD991BDACAA900E8B44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D04FDAC1BDACAA900E8B44A /* LaunchScreen.storyboard in Resources */,
+				3D04FDA91BDACAA900E8B44A /* Assets.xcassets in Resources */,
+				3D04FDA41BDACAA900E8B44A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D04FDB01BDACAAA00E8B44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D04FDBB1BDACAAA00E8B44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D04FD971BDACAA900E8B44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D04FDA11BDACAA900E8B44A /* ViewController.swift in Sources */,
+				3D04FDA71BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodeld in Sources */,
+				3D04FD9F1BDACAA900E8B44A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D04FDAE1BDACAAA00E8B44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D04FDB71BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D04FDB91BDACAAA00E8B44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D04FDC21BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D04FDB41BDACAAA00E8B44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D04FD9A1BDACAA900E8B44A /* UdemyMusicPlayerApp */;
+			targetProxy = 3D04FDB31BDACAAA00E8B44A /* PBXContainerItemProxy */;
+		};
+		3D04FDBF1BDACAAA00E8B44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D04FD9A1BDACAA900E8B44A /* UdemyMusicPlayerApp */;
+			targetProxy = 3D04FDBE1BDACAAA00E8B44A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D04FDA21BDACAA900E8B44A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D04FDA31BDACAA900E8B44A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D04FDAA1BDACAA900E8B44A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D04FDAB1BDACAA900E8B44A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D04FDC41BDACAAA00E8B44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D04FDC51BDACAAA00E8B44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D04FDC71BDACAAA00E8B44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UdemyMusicPlayerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.UdemyMusicPlayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D04FDC81BDACAAA00E8B44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UdemyMusicPlayerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.UdemyMusicPlayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D04FDCA1BDACAAA00E8B44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UdemyMusicPlayerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.UdemyMusicPlayerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UdemyMusicPlayerApp.app/UdemyMusicPlayerApp";
+			};
+			name = Debug;
+		};
+		3D04FDCB1BDACAAA00E8B44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UdemyMusicPlayerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.UdemyMusicPlayerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UdemyMusicPlayerApp.app/UdemyMusicPlayerApp";
+			};
+			name = Release;
+		};
+		3D04FDCD1BDACAAA00E8B44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UdemyMusicPlayerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.UdemyMusicPlayerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UdemyMusicPlayerApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3D04FDCE1BDACAAA00E8B44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UdemyMusicPlayerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.UdemyMusicPlayerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UdemyMusicPlayerApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D04FD961BDACAA900E8B44A /* Build configuration list for PBXProject "UdemyMusicPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D04FDC41BDACAAA00E8B44A /* Debug */,
+				3D04FDC51BDACAAA00E8B44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D04FDC61BDACAAA00E8B44A /* Build configuration list for PBXNativeTarget "UdemyMusicPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D04FDC71BDACAAA00E8B44A /* Debug */,
+				3D04FDC81BDACAAA00E8B44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D04FDC91BDACAAA00E8B44A /* Build configuration list for PBXNativeTarget "UdemyMusicPlayerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D04FDCA1BDACAAA00E8B44A /* Debug */,
+				3D04FDCB1BDACAAA00E8B44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D04FDCC1BDACAAA00E8B44A /* Build configuration list for PBXNativeTarget "UdemyMusicPlayerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D04FDCD1BDACAAA00E8B44A /* Debug */,
+				3D04FDCE1BDACAAA00E8B44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D04FDA51BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D04FDA61BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodel */,
+			);
+			currentVersion = 3D04FDA61BDACAA900E8B44A /* UdemyMusicPlayerApp.xcdatamodel */;
+			path = UdemyMusicPlayerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D04FD931BDACAA900E8B44A /* Project object */;
+}
