@@ -48,6 +48,7 @@
                                             <action selector="play:" destination="BYZ-38-t0r" id="Sea-I6-7Ci"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem width="26" style="plain" systemItem="fixedSpace" id="tTN-Kh-Dlt"/>
                                     <barButtonItem systemItem="pause" id="PAH-dT-ZnA">
                                         <connections>
                                             <action selector="pause:" destination="BYZ-38-t0r" id="aGn-r0-lg1"/>
@@ -56,7 +57,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="nuz-x6-W9C"/>
                                     <barButtonItem style="plain" id="Kk1-ZX-V7I">
                                         <slider key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="V3U-2t-eNa">
-                                            <rect key="frame" x="211" y="7" width="118" height="31"/>
+                                            <rect key="frame" x="132" y="7" width="118" height="31"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <connections>
                                                 <action selector="volumeSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="abf-Fe-9LF"/>
@@ -66,6 +67,7 @@
                                             <action selector="volumeSliderChanged:" destination="BYZ-38-t0r" id="AKJ-Ee-9yO"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TVX-sk-pfq"/>
                                     <barButtonItem title="Stop" id="wV2-fZ-beU">
                                         <connections>
                                             <action selector="stop:" destination="BYZ-38-t0r" id="XKp-yD-GVH"/>

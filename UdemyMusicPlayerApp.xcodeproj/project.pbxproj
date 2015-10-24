@@ -15,9 +15,7 @@
 		3D04FDAC1BDACAA900E8B44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDAA1BDACAA900E8B44A /* LaunchScreen.storyboard */; };
 		3D04FDB71BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FDB61BDACAAA00E8B44A /* UdemyMusicPlayerAppTests.swift */; };
 		3D04FDC21BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04FDC11BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift */; };
-		3D04FDD11BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD01BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 */; };
-		3D04FDD31BDACD4E00E8B44A /* 04 Long Drive.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD21BDACD4E00E8B44A /* 04 Long Drive.m4a */; };
-		3D04FDD51BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD41BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a */; };
+		3D04FDD11BDACC9400E8B44A /* Enjoy It Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D04FDD01BDACC9400E8B44A /* Enjoy It Now.mp3 */; };
 		3D04FDD71BDAD41100E8B44A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D04FDD61BDAD41100E8B44A /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,9 +51,7 @@
 		3D04FDBD1BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyMusicPlayerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D04FDC11BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyMusicPlayerAppUITests.swift; sourceTree = "<group>"; };
 		3D04FDC31BDACAAA00E8B44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D04FDD01BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3"; sourceTree = "<group>"; };
-		3D04FDD21BDACD4E00E8B44A /* 04 Long Drive.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "04 Long Drive.m4a"; sourceTree = "<group>"; };
-		3D04FDD41BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "05 Won't Go Home Without You.m4a"; sourceTree = "<group>"; };
+		3D04FDD01BDACC9400E8B44A /* Enjoy It Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Enjoy It Now.mp3"; sourceTree = "<group>"; };
 		3D04FDD61BDAD41100E8B44A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -142,9 +138,7 @@
 		3D04FDCF1BDACC7500E8B44A /* Music Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D04FDD21BDACD4E00E8B44A /* 04 Long Drive.m4a */,
-				3D04FDD01BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 */,
-				3D04FDD41BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a */,
+				3D04FDD01BDACC9400E8B44A /* Enjoy It Now.mp3 */,
 			);
 			name = "Music Files";
 			sourceTree = "<group>";
@@ -253,10 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D04FDAC1BDACAA900E8B44A /* LaunchScreen.storyboard in Resources */,
-				3D04FDD31BDACD4E00E8B44A /* 04 Long Drive.m4a in Resources */,
-				3D04FDD11BDACC9400E8B44A /* 1-07 Enjoy It Now (123 Extended Vocal Mix - Dim's Re-edit).mp3 in Resources */,
+				3D04FDD11BDACC9400E8B44A /* Enjoy It Now.mp3 in Resources */,
 				3D04FDA91BDACAA900E8B44A /* Assets.xcassets in Resources */,
-				3D04FDD51BDACD6A00E8B44A /* 05 Won't Go Home Without You.m4a in Resources */,
 				3D04FDA41BDACAA900E8B44A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
