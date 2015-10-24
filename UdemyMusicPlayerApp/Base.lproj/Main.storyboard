@@ -59,6 +59,9 @@
                                             <rect key="frame" x="211" y="7" width="118" height="31"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </slider>
+                                        <connections>
+                                            <action selector="volumeSliderChanged:" destination="BYZ-38-t0r" id="AKJ-Ee-9yO"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem title="Stop" id="wV2-fZ-beU">
                                         <connections>
@@ -69,6 +72,9 @@
                             </toolbar>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="46p-XZ-vbB">
                                 <rect key="frame" x="14" y="582" width="347" height="31"/>
+                                <connections>
+                                    <action selector="musicSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Jh7-ni-W0n"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:35" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHy-rT-aa4">
                                 <rect key="frame" x="228" y="541" width="131" height="33"/>

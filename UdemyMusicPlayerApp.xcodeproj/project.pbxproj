@@ -88,7 +88,6 @@
 		3D04FD921BDACAA900E8B44A = {
 			isa = PBXGroup;
 			children = (
-				3D04FDD61BDAD41100E8B44A /* AVFoundation.framework */,
 				3D04FD9D1BDACAA900E8B44A /* UdemyMusicPlayerApp */,
 				3D04FDB51BDACAAA00E8B44A /* UdemyMusicPlayerAppTests */,
 				3D04FDC01BDACAAA00E8B44A /* UdemyMusicPlayerAppUITests */,
@@ -97,6 +96,7 @@
 				3D04FDA81BDACAA900E8B44A /* Assets.xcassets */,
 				3D04FDAA1BDACAA900E8B44A /* LaunchScreen.storyboard */,
 				3D04FD9E1BDACAA900E8B44A /* AppDelegate.swift */,
+				3D04FDD61BDAD41100E8B44A /* AVFoundation.framework */,
 			);
 			sourceTree = "<group>";
 		};

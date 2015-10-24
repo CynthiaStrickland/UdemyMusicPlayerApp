@@ -14,26 +14,36 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
   var musicFiles = [String]()
   
   var musicPlayer: AVAudioPlayer = AVAudioPlayer()
-  var currentIndext: Int = 0
+  var currentIndex: Int = 0
   var timer: NSTimer = NSTimer()
   
   var timeRemaining: Bool = false
   
-  @IBOutlet weak var songName: UILabel!
+  @IBOutlet weak var songNameLabel: UILabel!
   @IBOutlet weak var timeLabel: UILabel!
   
   @IBOutlet weak var musicSlider: UISlider!
-  @IBOutlet weak var volumeSlider: UIBarButtonItem!
-  
-  
-  
+  @IBOutlet weak var volumeSlider: UISlider!
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
     loadMusicFiles()
+    
+    songNameLabel.text = ""
+    timeLabel.text = "00:00"
+    
+    playMusic()
+    
+    
   }
 
+  override func preferredStatusBarStyle() -> UIStatusBarStyle {
+    return UIStatusBarStyle.LightContent
+  }
+  
+
+  
   func loadMusicFiles() {
     
     let resourcePath : String = NSBundle.mainBundle().resourcePath!
@@ -57,15 +67,45 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
   
   func playMusic() {
     
+    let filePath = NSString(string:NSBundle.mainBundle().pathForResource(musicFiles[currentIndex], ofType: "mp3")!)
     
+    let fileURL = NSURL(fileURLWithPath: filePath as String)
+    
+    do {
+      musicPlayer = try AVAudioPlayer(contentsOfURL: fileURL)
+      
+    } catch {
+      print("error initiating the music player")
+    }
+    
+    musicPlayer.delegate = self
+    musicSlider.minimumValue = 0
+    musicSlider.maximumValue = Float(musicPlayer.duration)
+    
+    musicSlider.value = Float(musicPlayer.currentTime)
+    
+    musicPlayer.volume = volumeSlider.value
+    
+    musicPlayer.play()
+    songNameLabel.text = musicFiles[currentIndex]
+    animateSongNameLabel()
   }
   
   
   @IBAction func timeButton(sender: AnyObject) {
+    timeRemaining = !timeRemaining
   }
   
   func updateSlider() {
     
+    musicSlider.value = Float(musicPlayer.currentTime)
+    
+    if timeRemaining == false {
+      timeLabel.text = updateTime(musicPlayer.currentTime)
+    } else {
+      timeLabel.text = updateTime(musicPlayer.duration - musicPlayer.currentTime)
+      
+    }
   }
   
   func updateTime(currentTime: NSTimeInterval) -> String {
@@ -74,7 +114,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
   }
   
   func audioPlayerDidFinishPlaying(player: AVAudioPlayer, successfully flag: Bool) {
-    <#code#>
+    
   }
   
   func animateSongNameLabel() {
@@ -99,6 +139,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
   @IBAction func stop(sender: AnyObject) {
   }
   
+  @IBAction func musicSliderChanged(sender: AnyObject) {
+  }
+  
+  @IBAction func volumeSliderChanged(sender: AnyObject) {
+  }
 }
 
 
