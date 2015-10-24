@@ -110,39 +110,76 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
   
   func updateTime(currentTime: NSTimeInterval) -> String {
     
-    return ""
+    let current:Int = Int(currentTime)
+    
+    let minutes = current / 60
+    let seconds = current % 60
+    
+    let minutesString = minutes > 9 ? "\(minutes)" : "0\(minutes)"
+    let secondsString = seconds > 9 ? "\(seconds)" : "0\(seconds)"
+    
+    if timeRemaining == false {
+      return minutesString + ":" + secondsString
+    } else {
+      return "-" + minutesString + ":" + secondsString
+    }
   }
   
   func audioPlayerDidFinishPlaying(player: AVAudioPlayer, successfully flag: Bool) {
-    
+    let random = arc4random_uniform(UInt32(musicFiles.count))
+    currentIndex = Int(random)
+    playMusic()
   }
   
   func animateSongNameLabel() {
-    
-  }
+    UIView.animateWithDuration(1, delay: 0.5, options: [UIViewAnimationOptions.Repeat, UIViewAnimationOptions.Autoreverse], animations:
+      { () -> Void in
+      self.songNameLabel.alpha = 0
+      }, completion: nil)  }
   
 //MARK: Buttons
   
   
   @IBAction func back(sender: AnyObject) {
+    currentIndex -= 1
+    if currentIndex < 0 {
+      currentIndex = musicFiles.count - 1
+    }
+    playMusic()
   }
   
   @IBAction func next(sender: AnyObject) {
+    currentIndex += 1
+    if currentIndex == musicFiles.count {
+      currentIndex = 0
+    }
+    playMusic()
   }
   
   @IBAction func play(sender: AnyObject) {
+    musicPlayer.play()
+    songNameLabel.text = musicFiles[currentIndex]
+    animateSongNameLabel()
   }
   
   @IBAction func pause(sender: AnyObject) {
+    musicPlayer.pause()
   }
   
   @IBAction func stop(sender: AnyObject) {
+    musicPlayer.stop()
+    songNameLabel.text = ""
+    musicPlayer.currentTime = 0
   }
   
   @IBAction func musicSliderChanged(sender: AnyObject) {
+    if musicPlayer.playing {
+      musicPlayer.currentTime = NSTimeInterval(musicSlider.value)
+    }
   }
   
   @IBAction func volumeSliderChanged(sender: AnyObject) {
+    musicPlayer.volume = volumeSlider.value
   }
 }
 

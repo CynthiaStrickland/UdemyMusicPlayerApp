@@ -58,6 +58,9 @@
                                         <slider key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="V3U-2t-eNa">
                                             <rect key="frame" x="211" y="7" width="118" height="31"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="volumeSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="abf-Fe-9LF"/>
+                                            </connections>
                                         </slider>
                                         <connections>
                                             <action selector="volumeSliderChanged:" destination="BYZ-38-t0r" id="AKJ-Ee-9yO"/>
@@ -140,9 +143,9 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="musicSlider" destination="46p-XZ-vbB" id="xWZ-UA-21t"/>
-                        <outlet property="songName" destination="Npb-Vr-OPw" id="bsv-Ra-qi8"/>
+                        <outlet property="songNameLabel" destination="Npb-Vr-OPw" id="wv4-q7-wgE"/>
                         <outlet property="timeLabel" destination="zHy-rT-aa4" id="eop-pr-QKN"/>
-                        <outlet property="volumeSlider" destination="Kk1-ZX-V7I" id="85E-jT-zIV"/>
+                        <outlet property="volumeSlider" destination="V3U-2t-eNa" id="4UU-ah-N17"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
